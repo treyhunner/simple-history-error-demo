@@ -9,7 +9,7 @@ INSTALLED_APPS = (
     'app2',
 )
 
-TEST_RUNNER = 'django_nose.NoseTestSuiteRunner'
+TEST_RUNNER = 'errordemo.runner.BasicNoseRunner'
 
 DATABASES = {
     'default': {
