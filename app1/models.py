@@ -1,1 +1,1 @@
-from app2 import models
+from app2.models import Model1
